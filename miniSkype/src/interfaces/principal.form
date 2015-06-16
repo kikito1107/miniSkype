@@ -24,17 +24,35 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
-              <Component id="jTabbedPane1" min="-2" pref="424" max="-2" attributes="0"/>
-              <EmptySpace pref="430" max="32767" attributes="0"/>
+              <Component id="jTabbedPane1" min="-2" pref="491" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jToggleButton1" pref="230" max="32767" attributes="0"/>
+                  <Component id="jToggleButton2" max="32767" attributes="0"/>
+                  <Component id="jToggleButton3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="58" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-              <Component id="jTabbedPane1" min="-2" pref="359" max="-2" attributes="0"/>
-              <EmptySpace pref="215" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jTabbedPane1" min="-2" pref="532" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                      <Component id="jToggleButton1" min="-2" pref="135" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Component id="jToggleButton2" min="-2" pref="140" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jToggleButton3" min="-2" pref="156" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="42" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -56,12 +74,12 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="419" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="486" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="331" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="504" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
@@ -78,12 +96,12 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="419" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="486" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="331" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="504" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
@@ -100,17 +118,75 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="419" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTextField1" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="393" max="-2" attributes="0"/>
+                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="331" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jTextField1" pref="356" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="91" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
               </Group>
             </DimensionLayout>
           </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JEditorPane" name="jEditorPane1">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Enviar"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jTextField1"/>
+              </Properties>
+            </Component>
+          </SubComponents>
         </Container>
       </SubComponents>
     </Container>
+    <Component class="javax.swing.JToggleButton" name="jToggleButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Video Llamada"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="jToggleButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Llamada"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="jToggleButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sms"/>
+      </Properties>
+    </Component>
   </SubComponents>
 </Form>
