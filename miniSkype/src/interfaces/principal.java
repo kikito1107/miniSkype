@@ -123,6 +123,7 @@ public class principal extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new principal().setVisible(true);
+                System.out.println("asjkdhf");
             }
         });
     }
